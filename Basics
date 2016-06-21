@@ -26,3 +26,23 @@ If("Mike is a Boss".length>=2) {
 }
 
 //This is an if statement 
+
+if("myname".length >= 7) {
+  console.log("Let's go down the first road!");
+}
+else{
+  console.log("Random text")
+}
+
+//Simple if statement. 
+
+if(10===10) {
+  console.log("This is true!");
+}
+else{
+  console.log("This is false!");
+}
+
+//simple if statement as well
+
+//I'm skipping through a bunch of the stupid shit
