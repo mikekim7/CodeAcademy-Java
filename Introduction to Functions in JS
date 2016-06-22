@@ -26,6 +26,12 @@ greeting("Mike"); //summons function that inserts input from user into sentence 
 
 //Below is a function that utilizes the return keyword
 
+var timesTwo = function(number) {
+  return number/4; //return keyword simply gives the programmer back the value that comes out of the function. So the fucntion runs, and when it sees return, the function will imediately stop running and return the value
+};
+
+console.log(timesTwo(5));
+
 var timesTwo = function(number){
   return number/4;
 };
