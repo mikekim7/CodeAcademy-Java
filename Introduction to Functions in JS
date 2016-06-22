@@ -1,0 +1,41 @@
+// That was just a simple speed demo. All super simple.
+var speed = 65;
+
+if(speed >= 80){
+  console.log("Slow the fuck down.");
+}else{
+  console.log("Drive Safe");
+}
+
+//First Function!
+
+var divide byThree = function (number){
+  var val = number / 3; // value is number divided by three
+  console.log(val); //prints variable val
+};
+
+dividebyThree(6); //summons function 
+
+//Below is a function that utilizes a string
+
+var greeting = function (name){
+  console.log("Great to see you," + " " + name);
+};
+
+greeting("Mike"); //summons function that inserts input from user into sentence that forms greeting
+
+//Below is a function that utilizes the return keyword
+
+var timesTwo = function(number){
+  return number/4;
+};
+
+console.log(timesTwo(5));
+
+//Below is a function with two parameters
+
+var perimeterBox= function(length, width){ //notice how commas separate my two variables
+  return length*2+width*2;
+};
+
+perimeterBox(3,4);
