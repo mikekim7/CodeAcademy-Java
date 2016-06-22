@@ -1,0 +1,19 @@
+confirm("Are you ready to play?") //Intro
+
+var age = prompt("What's your age")
+if (age<18){
+  console.log("You are not allowed to play because you are too fucking young you dumb shit");
+}else{
+  console.log("Alright, you're old enough. Let's play");
+}
+
+console.log("You are sitting in the office at TISTA. You are hanging out at Intern Row, when Erik asks if you want to get lunch.");
+var userAnswer = prompt("Do you want to get lunch with Erik?");
+
+if (userAnswer = "yes"){
+  console.log("You get lunch with Erik. Erik orders a salad because he is soft.");
+}else if(userAnswer = "no"){
+  console.log("Ok. Erik is sad. Maybe another time.");
+}
+
+//For some reason, when I ran the code on CodeAcademy, the script would not recognize a response of no for the variable userAnswer.
