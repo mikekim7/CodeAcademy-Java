@@ -46,3 +46,12 @@ else{
 //simple if statement as well
 
 //I'm skipping through a bunch of the stupid shit
+
+"wonderful day".substring(3,7);
+
+//substring pulls a selected amount of characters out of a string. The parentheses indicates a beginning and ending character to stop at 
+
+var myAge = 18;
+
+console.log(myAge);
+
