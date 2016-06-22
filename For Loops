@@ -1,0 +1,15 @@
+
+for (var counter = 1; counter < 11; counter++){
+  console.log(counter);
+}
+
+//for loop that counts down by 1
+for (var i = 1; counter >=0; i--){
+  console.log(i);
+}
+
+//for loop that counts down by 5
+for(var i = 10; i>=0; i-=5){
+  console.log(i);
+}
+

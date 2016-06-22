@@ -1,0 +1,18 @@
+
+//Practice Array
+var junk = ["Dave", "Blows Cock", 6,9];
+
+console.log(junk);
+
+//creates a random array, and shows how the positioning of items in an array start at 0. Therefore printing element 3, is 31
+var junkData = ["Eddie Murphy", 49, "peanuts", 31];
+
+console.log(junkdata[3]);
+
+//Printing out elements of an array with a for loop
+
+var cities = ["Melbourne", "Venice", "Rome" , "New York City", "Prague", "London", "Hong Kong"];
+
+for (var i 0; i< cities.length; i++){ //notice how calling length calls the number of itmes within an array
+  console.log("I would like to visit" + " " cities[i]);
+}
